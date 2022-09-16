@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "nautobot-example-plugin"
+name = "nautobot-plugin-example"
 version = "0.0.1"
 description = "An example plugin for the Django-based web application Nautobot"
 authors = ["Aaron Drydale"]
 readme = "README.md"
-packages = [{include = "nautobot_example_plugin"}]
+packages = [{include = "nautobot_plugin_example"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
