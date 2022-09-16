@@ -1,3 +1,5 @@
+from .. import common
+
 # Importing Job from nautobot.extras.jobs is required for any Nautobot job
 from nautobot.extras.jobs import Job
 
@@ -8,7 +10,7 @@ from nautobot.extras.jobs import BooleanVar
 from nautobot.extras.models.secrets import Secret
 
 # This is the job grouping within the Nautobot UI.
-name = "AD Example jobs"
+name = ex_base_grouping_name
 
 # This is the job being imported.
 class Ex04_AccessingSecrets(Job):

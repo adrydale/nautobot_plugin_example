@@ -1,3 +1,5 @@
+from .. import common
+
 # This imports a sleep function used as an example time delay
 from time import sleep
 
@@ -8,7 +10,7 @@ from nautobot.extras.jobs import Job
 from nautobot.extras.jobs import StringVar, IntegerVar, BooleanVar, ChoiceVar
 
 # This is the job grouping within the Nautobot UI.
-name = "AD Example jobs"
+name = ex_base_grouping_name
 
 # This is the job being imported.
 class Ex02_Inputs(Job):
