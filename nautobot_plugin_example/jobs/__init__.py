@@ -1,4 +1,4 @@
-from nautobot_plugin_example.jobs.example_jobs.Ex01_HelloWorldAndLogging import Ex01_HelloWorldAndLogging
+from nautobot_plugin_example.jobs.example_jobs.Ex01_HelloWorldAndLogging import Ex01_HelloWorld
 from nautobot_plugin_example.jobs.example_jobs.Ex02_Inputs import Ex02_Inputs
 from nautobot_plugin_example.jobs.example_jobs.Ex03_TestAndPostRunFunctions import Ex03_TestAndPostRunFunctions
 from nautobot_plugin_example.jobs.example_jobs.Ex04_AccessingSecrets import Ex04_AccessingSecrets
