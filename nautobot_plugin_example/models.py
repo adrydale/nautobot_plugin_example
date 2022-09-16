@@ -1,4 +1,4 @@
-"""Model definition for nautobot_example_plugin."""
+"""Model definition for nautobot_plugin_examle."""
 
 from django.db import models
 

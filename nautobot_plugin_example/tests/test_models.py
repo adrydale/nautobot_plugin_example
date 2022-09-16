@@ -1,3 +1,3 @@
 from nautobot.utilities.testing import TestCase
 
-from nautobot_example_plugin import models
+from nautobot_plugin_example import models

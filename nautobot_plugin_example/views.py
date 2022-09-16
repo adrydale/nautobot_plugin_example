@@ -1,6 +1,6 @@
-"""Views for nautobot_example_plugin."""
+"""Views for nautobot_plugin_example."""
 
 from django.shortcuts import render
 from nautobot.core.views import generic
 
-from nautobot_example_plugin import models
+from nautobot_plugin_example import models

@@ -1,10 +1,10 @@
-"""nautobot_example_plugin Plugin Initilization."""
+"""nautobot_plugin_example Plugin Initilization."""
 
 from nautobot.extras.plugins import PluginConfig
 
 
 class NautobotPluginExampleConfig(PluginConfig):
-    """Plugin configuration for the nautobot_example_plugin plugin."""
+    """Plugin configuration for the nautobot_plugin_example plugin."""
 
     name = "nautobot_plugin_example"  # Raw plugin name; same as the plugin's source directory.
     verbose_name = "nautobot_plugin_example"  # Human-friendly name for the plugin.
