@@ -16,4 +16,4 @@ class NautobotPluginExampleConfig(PluginConfig):
     caching_config = {}  # Plugin-specific cache configuration.
 
 
-config = NautobotPlugiinExampleConfig
+config = NautobotPluginExampleConfig
