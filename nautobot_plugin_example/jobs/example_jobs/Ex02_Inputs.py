@@ -10,7 +10,7 @@ from nautobot.extras.jobs import Job
 from nautobot.extras.jobs import StringVar, IntegerVar, BooleanVar, ChoiceVar
 
 # This is the job grouping within the Nautobot UI.
-name = ex_base_grouping_name
+name = common.ex_base_grouping_name
 
 # This is the job being imported.
 class Ex02_Inputs(Job):

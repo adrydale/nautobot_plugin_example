@@ -11,7 +11,7 @@ from nautobot.dcim.models import Site
 from nautobot.extras.models import Status
 
 # This is the job grouping within the Nautobot UI.
-name = ex_base_grouping_name
+name = common.ex_base_grouping_name
 
 # This is the job being imported.
 class Ex05_CreatingSiteObjects(Job):

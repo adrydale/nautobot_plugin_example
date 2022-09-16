@@ -2,7 +2,7 @@ from .. import common
 from nautobot.extras.jobs import Job
 
 # This is the job grouping within the Nautobot UI.
-name = ex_base_grouping_name
+name = common.ex_base_grouping_name
 
 # This is the job being imported. We include "Job" in the class definition
 # because our new class/Nautobot job will extend the built in functions that
