@@ -1,1 +1,1 @@
-ex_base_grouping_name = "AD Example Plugin Jobs"
+ex_base_grouping_name = "Example Plugin Jobs"
