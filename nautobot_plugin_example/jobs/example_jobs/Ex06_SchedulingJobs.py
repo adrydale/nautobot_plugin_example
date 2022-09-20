@@ -23,6 +23,10 @@ class Ex06_SchedulingJobs(Job):
       Jobs by default will have has_sensitive_variables set to True. These jobs
       cannot be scheduled. Changing has_sensitive_variables to False will enable
       the job to be scheduled for the future once or on a recurring schedule.
+
+      **Important** Please ensure that the Nautobot time zone is set as you
+      expect when scheduling jobs. The current Nautobot time is located at the
+      bottom of every web page.
     """
 
     # This is the variable that we'll set to False so that the job can be
