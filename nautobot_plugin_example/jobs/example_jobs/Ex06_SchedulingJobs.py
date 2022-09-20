@@ -25,6 +25,13 @@ class Ex06_SchedulingJobs(Job):
       the job to be scheduled for the future once or on a recurring schedule.
     """
 
+    # This is the variable that we'll set to False so that the job can be
+    # scheduled. It's important to understand that this option is defaulted to
+    # True for a reason. Be careful when setting this to False and be sure to
+    # understand the implications
+    # https://nautobot.readthedocs.io/en/latest/additional-features/jobs/
+    has_sensitive_variables = False
+
   def run(self, data, commit):
     self.log_info("Example job for scheduling.")
 
