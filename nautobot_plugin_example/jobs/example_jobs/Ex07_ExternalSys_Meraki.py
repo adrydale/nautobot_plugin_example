@@ -19,7 +19,7 @@ class Ex07_ExternalSys_Meraki(Job):
   # The Meta class within the job class is used for job extensible data
   class Meta():
     # This is what the job will be named in the UI.
-    name = "Example 01 - External Systems - Meraki"
+    name = "Example 07 - External Systems - Meraki"
     # The first line of the description will be displayed but other lines will
     # only be displayed on job details.
     description = """
@@ -40,7 +40,8 @@ class Ex07_ExternalSys_Meraki(Job):
     # none is specified. This is the Meraki perferred way but it does give any
     # script accessibility to the API key by just importing it.
     try:
-      meraki_token = Secret.objects.get(slug="meraki_org01_token")
+      meraki_secret = Secret.objects.get(slug="meraki_org01_token")
+      meraki_token = meraki_secret.get_value()
     except Secret.DoesNotExist:
       self.log_failure("Error: Secret \"meraki_org01_token\" doesn't exist.")
       return
