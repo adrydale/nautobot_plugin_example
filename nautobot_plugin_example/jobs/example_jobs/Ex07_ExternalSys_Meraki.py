@@ -53,6 +53,8 @@ class Ex07_ExternalSys_Meraki(Job):
     # a bit with suppress_logging=True.
     dash = meraki.DashboardAPI(api_key=meraki_token, suppress_logging=True)
 
+    # Grab the list of organizations for the API key. Iterate through them and
+    # log the org name and ID.
     orgs = dash.organizations.getOrganizations()
     for org in orgs:
       org_name = org["name"]
