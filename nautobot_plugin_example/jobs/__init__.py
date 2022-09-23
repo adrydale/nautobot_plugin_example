@@ -4,6 +4,7 @@ from nautobot_plugin_example.jobs.example_jobs.Ex03_TestAndPostRunFunctions impo
 from nautobot_plugin_example.jobs.example_jobs.Ex04_AccessingSecrets import Ex04_AccessingSecrets
 from nautobot_plugin_example.jobs.example_jobs.Ex05_CreatingSiteObjects import Ex05_CreatingSiteObjects
 from nautobot_plugin_example.jobs.example_jobs.Ex06_SchedulingJobs import Ex06_SchedulingJobs
+from nautobot_plugin_example.jobs.example_jobs.Ex07_ExternalSys_Meraki import Ex07_ExternalSys_Meraki
 
 jobs = [
   Ex01_HelloWorld,
@@ -12,4 +13,5 @@ jobs = [
   Ex04_AccessingSecrets,
   Ex05_CreatingSiteObjects,
   Ex06_SchedulingJobs,
+  Ex07_ExternalSys_Meraki,
 ]
