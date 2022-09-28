@@ -62,3 +62,8 @@ class ExEX01_ExternalSys_Meraki(Job):
       self.log_success(f"Org found! Name: {org_name}, ID: {org_id}")
 
     self.log_info("Complete!")
+
+    # From here, you can use the dashboard object as in any Python script. Use
+    # the following as additional resources for exploring the Meraki Python SDK.
+    # https://github.com/meraki/dashboard-api-python
+    # https://developer.cisco.com/meraki/api/#!python-meraki/usage
